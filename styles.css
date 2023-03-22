@@ -9,11 +9,21 @@ body {
   /* display: flex; */
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   border-radius: 100%;
   border: solid 3px rgb(0, 149, 255);
   margin-top: 50px;
-  margin-left: 245px;
+  /* margin-left: 245px; */
+  align-items: center;
+}
+.img {
 }
 h1 {
   font-family: "Raleway", sans-serif;
@@ -35,7 +45,7 @@ a {
   border-radius: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin-left: 310px;
+  /* margin-left: 310px; */
 }
 a:hover {
   color: white;
